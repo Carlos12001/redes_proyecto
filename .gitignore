@@ -1,0 +1,38 @@
+# Linux
+*~
+*.swp
+*.swo
+.cache/
+.Trash-*
+.directory
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+.Python
+env/
+venv/
+ENV/
+.venv/
+.env
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.mypy_cache/
+.mypy_cache/
+celerybeat-schedule
+*.log
+
+# Visual Studio Code
+.vscode/
+*.code-workspace

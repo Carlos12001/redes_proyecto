@@ -18,25 +18,16 @@ Sistema inteligente de monitoreo y control automatizado de interfaces de red uti
 ```bash
 git clone <repository-url>
 cd netflow-monitor
+chmod +x ./install.sh
+./install.sh
 pip install -r requirements.txt
 ```
 
 ## Uso
 ```bash
-python main.py
+ python3 network_monitor_gui.py
 ```
 
-## Estructura del Proyecto
-```
-netflow-monitor/
-├── src/
-│   ├── monitor.py
-│   ├── alerts.py
-│   └── restconf_client.py
-├── tests/
-├── docs/
-└── README.md
-```
 
 ## Tecnologías
 - Python (requests, matplotlib, json, time)
